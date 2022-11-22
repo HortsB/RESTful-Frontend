@@ -1,0 +1,33 @@
+<p>
+    <mat-toolbar>
+        <button mat-menu-item class="example-icon" aria-label="Example icon-button with menu icon"
+         routerLink="/vehiculos">
+            <mat-icon>sledding</mat-icon>
+            <span>Vehiculos</span>
+        </button>
+        <button mat-menu-item  class="example-icon" aria-label="Example icon-button with menu icon"
+        routerLink="/propietarios">
+            <mat-icon>face</mat-icon>
+            <span>Propietarios</span>
+        </button>
+        <button mat-menu-item  class="example-icon" aria-label="Example icon-button with menu icon"
+        routerLink="/propietarios/dominio">
+            <mat-icon>donut_large</mat-icon>
+            <span>Reporte de gmails</span>
+        </button>
+        <button mat-menu-item  class="example-icon" aria-label="Example icon-button with menu icon"
+        routerLink="/vehiculos/fechas">
+            <mat-icon>donut_large</mat-icon>
+            <span>Reporte de vehiculos despues de noviembre</span>
+        </button>
+        <span class="example-spacer"></span>
+        
+        <button mat-menu-item  class="example-icon" aria-label="Example icon-button with menu icon"
+        routerLink="/vehiculos/cantidad">
+            <mat-icon>donut_large</mat-icon>
+            <span>Reporte de propietarios y su cantidad de vehiculos</span>
+        </button>
+        <span class="example-spacer"></span>
+    </mat-toolbar>
+</p>
+<router-outlet></router-outlet>
